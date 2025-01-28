@@ -1,4 +1,4 @@
-# Infernet SDK
+# 🚀 Infernet SDK
 
 [![Tests](https://github.com/ritual-net/infernet-sdk/actions/workflows/test_contracts.yml/badge.svg)](https://github.com/ritual-net/infernet-sdk/actions/workflows/test_contracts.yml)
 
@@ -15,7 +15,7 @@ Developers can inherit one of two simple interfaces, [`CallbackConsumer`](./src/
 > [!WARNING]
 > These smart contracts are being provided as is. No guarantee, representation or warranty is being made, express or implied, as to the safety or correctness of the smart contracts.
 
-## Local deployment and usage
+## 💻 Local deployment and usage
 
 First, ensure you have [Foundry installed locally](https://book.getfoundry.sh/getting-started/installation). A simple way to install is to run the following command:
 
@@ -24,7 +24,7 @@ First, ensure you have [Foundry installed locally](https://book.getfoundry.sh/ge
 curl -L https://foundry.paradigm.xyz | bash
 ```
 
-### Building and running
+### 🛠️ Building and running
 
 To build, run, or execute other commands, you can reference the [Makefile](./Makefile).
 
@@ -36,7 +36,7 @@ The default target (`make`) will:
 4. Build code and copy compiled artifacts
 5. Run test suite
 
-### Using within your own contracts
+### 🔧 Using within your own contracts
 
 To import Infernet as a library, you can install the code in your repo with [forge](https://book.getfoundry.sh/forge/):
 
@@ -81,7 +81,7 @@ contract MyContract is SubscriptionConsumer {
 }
 ```
 
-## Pruned repository structure
+## 🗂️ Pruned repository structure
 
 Ignores self-explanatory files:
 
@@ -150,7 +150,7 @@ Ignores self-explanatory files:
             └── Optimistic.sol
 ```
 
-### Deploying contracts on EVM networks
+### 🚀 Deploying contracts on EVM networks
 
 To deploy the contracts on an EVM chain:
 
@@ -184,6 +184,6 @@ This will use the `scripts/Deploy.sol` script to deploy the contracts to the net
 
 Note: Ensure your account has sufficient balance for gas fees on the target network.
 
-## License
+## 📝 License
 
 [BSD 3-clause Clear](./LICENSE)
